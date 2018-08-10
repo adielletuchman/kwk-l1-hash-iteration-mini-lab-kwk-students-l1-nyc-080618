@@ -1,5 +1,5 @@
 people = [["Katelyn", "proletariat"], ["Jon", "bougie"]]
 
-people.each do |person|
+people.each do |person, description|
   puts person
 end 
